@@ -7,15 +7,15 @@ def home():
     return render_template("index.html")
 
 @app.route('/about')
-def ai_intro():
+def about():
     return render_template("about.html")
 
 @app.route('/lesson')
-def ai_in_education():
+def lesson():
     return render_template("lesson.html")
 
 @app.route('/practice')
-def teacher_training():
+def practice():
     return render_template("practice.html")
 
 @app.route('/resources')
@@ -23,7 +23,7 @@ def resources():
     return render_template("resources.html")
 
 @app.route('/project')
-def future():
+def project():
     return render_template("project.html")
 
 if __name__ == '__main__':
